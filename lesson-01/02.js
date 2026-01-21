@@ -6,3 +6,11 @@
 */
 
 // your code
+const NUMBER = 10;
+let number_increm = 2;
+let factorial = 1;
+
+while (number_increm <= NUMBER) {
+  factorial *= number_increm;
+  number_increm += 1;
+}
