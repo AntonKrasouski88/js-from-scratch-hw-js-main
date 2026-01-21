@@ -5,3 +5,14 @@
 */
 
 // your code
+const START_NUMBER = 1;
+const FINISH_NUMBER = 20;
+let number_increm = START_NUMBER;
+let sum = 0;
+
+while (number_increm <= FINISH_NUMBER) {
+  if (number_increm % 2 === 1) {
+    sum += number_increm;
+  }
+  number_increm += 1;
+}
