@@ -11,7 +11,7 @@ const BEGIN = 1;
 const END = 6;
 let dice1 = Math.floor(Math.random() * (END - BEGIN + 1)) + BEGIN; // your code
 let dice2 = Math.floor(Math.random() * (END - BEGIN + 1)) + BEGIN;// your code
-let isWinningDouble = dice1 === dice2;// your code
+let isWinningDouble = (dice1 === dice2) && dice1 > 3 && dice2 > 3;// your code
 
 
 console.log('Первый бросок: ' + dice1)
